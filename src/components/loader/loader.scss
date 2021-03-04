@@ -1,0 +1,83 @@
+#logo {
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+#logo svg {
+  width: 100%;
+  height: 100%;
+}
+#big-circle {
+  stroke: transparent;
+  stroke-width: 2px;
+  fill: transparent;
+  stroke-dasharray: 310.51519775390625;
+  stroke-dashoffset: 310.51519775390625;
+
+  animation: circle-animation 5s linear forwards 5s, fill 3s ease forwards 10s;
+}
+#small-circle {
+  stroke-dasharray: 27.65320930480957;
+  stroke-dashoffset: 27.55320930480957;
+  stroke: transparent;
+  animation: small-anim 3s ease forwards;
+  animation-delay: 5s;
+}
+#logo svg path {
+  fill: transparent;
+  stroke: #eee;
+  stroke-dasharray: 379.0550231933594;
+  stroke-dashoffset: 379.0550231933594;
+  animation: letter-anim 3s linear forwards;
+  animation-delay: 4s;
+}
+@keyframes small-anim {
+  to {
+    stroke-dashoffset: 0;
+    stroke: #eee;
+    stroke-width: 1px;
+  }
+}
+@keyframes circle-animation {
+  0% {
+    stroke-dashoffset: 310.51519775390625;
+  }
+
+  40% {
+    /* multiple the initial value of the property*/
+    stroke-dashoffset: 621.0303955078124;
+    stroke: #eee;
+  }
+
+  80% {
+    /* initial value*4 */
+    stroke-dashoffset: 1243.060791015625;
+    stroke: chocolate;
+  }
+
+  100% {
+    stroke-dashoffset: 1243.860791015625;
+    stroke: chocolate;
+  }
+}
+
+@keyframes letter-anim {
+  to {
+    stroke: #eee;
+    stroke-dashoffset: 0;
+    fill: #eee;
+    stroke-width: 0px;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: chocolate;
+  }
+}
