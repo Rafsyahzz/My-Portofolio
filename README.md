@@ -13,7 +13,7 @@ Welcome to my personal website built with ❤️ using Gatsby and hosted on Netl
 
 ## 💫 Deploy
 
-<img src="./src/images/website.png" alt="my website" /></br>
+<img src="./src/images/websiteImage.png" alt="my website" /></br>
 
 <center>⬇️ You can find a live version ⬇️.</br>
 
