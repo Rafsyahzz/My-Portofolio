@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer >
             <SocialIcons className="horisontal"/>
-            Built by Meryem Barroug
+            Built with ❤️ by Meryem Barroug.
            
            
 

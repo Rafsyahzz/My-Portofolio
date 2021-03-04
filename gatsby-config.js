@@ -3,6 +3,7 @@ module.exports = {
     title: `Meryem Barroug`,
     description: `Meryem Barroug is a front end developer that enjoy building web application`,
     author: `Meryem Barroug`,
+    image: `/og.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
