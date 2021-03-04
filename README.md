@@ -15,7 +15,7 @@ Welcome to my personal website built with ❤️ using Gatsby and hosted on Netl
 
 <img src="./src/images/website.png" alt="my website" /></br>
 
-<center>⬇️ You can find a live version ⬇️.</br></br>
+<center>⬇️ You can find a live version ⬇️.</br>
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://meryembarroug.netlify.app/)
 
