@@ -1,23 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./loader.scss";
+import {slider} from "../../utiles/utiles"
 
 function Loader() {
+  useEffect(() => {
+    
+    slider()
+  
+  }, [slider])
+  
     return (
-        <div id="logo">
-      <svg
-        width="100"
-        height="100"
-        viewBox="0 0 100 100"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle id="big-circle" cx="50" cy="50" r="49" stroke="black" />
-        <path
-          d="M32.707 71V35.4531H45.1582C49.4714 35.4531 52.7428 36.2832 54.9727 37.9434C57.2025 39.5872 58.3174 42.0042 58.3174 45.1943C58.3174 46.9359 57.8698 48.474 56.9746 49.8086C56.0794 51.127 54.8343 52.0954 53.2393 52.7139C55.0622 53.1696 56.4945 54.0892 57.5361 55.4727C58.5941 56.8561 59.123 58.5488 59.123 60.5508C59.123 63.9688 58.0326 66.5566 55.8516 68.3145C53.6706 70.0723 50.5618 70.9674 46.5254 71H32.707ZM40.0312 55.5215V65.1162H46.3057C48.0309 65.1162 49.3737 64.7093 50.334 63.8955C51.3105 63.0654 51.7988 61.9261 51.7988 60.4775C51.7988 57.2223 50.1143 55.5703 46.7451 55.5215H40.0312ZM40.0312 50.3457H45.4512C49.1458 50.2806 50.9932 48.8076 50.9932 45.9268C50.9932 44.3154 50.5212 43.1598 49.5771 42.46C48.6494 41.7438 47.1764 41.3857 45.1582 41.3857H40.0312V50.3457Z"
-          fill="black"
-        />
-        <circle id="small-circle" cx="70" cy="66" r="4" stroke="black" />
-      </svg>
+      <div className="wrapper">
+   <div className="text_container">
+     <h1 className="slider_text">Meryem Barroug</h1>
+     <span className="slider"></span>
+</div>
     </div>
     )
 }

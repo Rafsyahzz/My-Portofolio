@@ -33,23 +33,23 @@ function Project({title,description, url,github, imageData,technology,shiftDiste
     return (
         <div className="project_container">
             <div className="project_heading">
-            <div className="project_image" >
+            <div className="project_image scrol_anime" >
                 <h2 ref={title1} className="project_title project_title_stroked">{title}</h2>
                 <Image className="image" imgStyle={{ objectFit: "fill" }} fluid={ imageData} alt={title}/>
                 
             </div>
-            <h2  ref={title2} className="project_title">{title}</h2>
+            <h2  ref={title2} className="project_title scrol_anime">{title}</h2>
             </div>
             <div className="project_description">
-                <p>
+                <p className="scrol_anime">
                { description}
                 </p>
                 <div className="skills_container">
-                    {technology.map((tech)=><span className="skill">{tech}</span>
+                    {technology.map((tech,ind)=><span key={ind} className="skill ">{tech}</span>
                                 )}
                
                 </div>
-                <div className="icon_container">
+                <div className="icon_container scrol_anime">
                     <div className="icon">
                         <a href={ url}>
                     <LinkToWebsite/>

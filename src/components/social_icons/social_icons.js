@@ -9,20 +9,21 @@ function SocialIcons({className}) {
         <div className={`social_icons_container ${className}`}>
             
         <div className="icon">
-                <a href="https://www.youtube.com/watch?v=RLc8NB2JyxE">
+                <a href="https://linkedin.com/in/barrougmeryem">
             <Linkedin />
             </a>
             </div>
             <div className="icon">
-                <a href="https://www.youtube.com/watch?v=RLc8NB2JyxE">
+                <a href="https://github.com/MeryemBa">
             <Github/>
             </a>
             </div>
             <div className="icon strokeIcon">
-                <a href="https://www.youtube.com/watch?v=RLc8NB2JyxE">
+                <a href="https://codesandbox.io/u/MeryemBa">
             <CodeSandbox />
             </a>
             </div>
+        
         </div>
     )
 }

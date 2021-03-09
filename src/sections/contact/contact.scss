@@ -13,6 +13,13 @@
   }
   & div {
     width: 75%;
+    & .btn_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+    }
   }
   @media screen and (max-width: 480px) {
     padding: 1rem;

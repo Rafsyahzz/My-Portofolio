@@ -11,6 +11,8 @@ import Projects from "../sections/project/project"
 
 
 const IndexPage = () => {  
+ 
+
 
 
 return (<Layout>

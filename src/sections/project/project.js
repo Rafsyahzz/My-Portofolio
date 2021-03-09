@@ -33,7 +33,7 @@ function Projects() {
     const projects=data.allProjectsJson.edges
     
     return (
-        <section id="project">
+        <section id="work">
 <h2 className="title">My work</h2>
 
 <div className="projects_container">
@@ -41,7 +41,7 @@ function Projects() {
 {projects.map(({node:project},indx)=>(
 
 <Project
-    key={project.id} 
+    key={`projectNmber${project.id}`} 
     title={project.title}
     description={project.description}
     url={project.url}

@@ -5,8 +5,9 @@ function Footer() {
     return (
         <footer >
             <SocialIcons className="horisontal"/>
+            <p className="scrol_anime">
             Built with ❤️ by Meryem Barroug.
-           
+            </p>
            
 
         </footer>

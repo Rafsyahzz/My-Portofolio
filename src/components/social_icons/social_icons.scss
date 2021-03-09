@@ -6,6 +6,7 @@
   margin: 45px 0;
   width: fit-content;
   height: 60px;
+
   @media screen and (min-width: 800px) {
     display: flex;
     justify-content: center;
@@ -14,10 +15,9 @@
     position: fixed;
     height: fit-content;
     width: 60px;
-    bottom: 70px;
-    left: 0;
-    &:after {
-      content: " ";
+    bottom: 20px;
+    right: 10px;
+    & .line {
       width: 1px;
       height: 100px;
       position: absolute;
