@@ -1,11 +1,13 @@
 
 import ScrollReveal from 'scrollreveal'
-import { TimelineLite, Power3, Power4,Power1,gsap } from 'gsap';
 
-  let timeline = new TimelineLite({ delay: .2 });
-  let timeline2 = new TimelineLite();
-  let timeline3 = new TimelineLite();
-  let timeline4 = new TimelineLite();
+import {gsap,  Power3, Power4,Power1 } from 'gsap/all';
+
+
+  const timeline2 = gsap.timeline();
+  const timeline3 = gsap.timeline();
+  const timeline4 = gsap.timeline();
+  const timeline1 = gsap.timeline({ delay: .2 });
 
 export const  slider=()=> {
   //test animation
@@ -63,7 +65,7 @@ gsap.to(".horisontal", {
   duration: 1, 
   autoAlpha: 1
 });
-  timeline.staggerFrom([".logo svg",".nav_link"], 1, { y: "-100vh", ease: Power1.easeOut, stagger: 0.3 }, 0.3)
+  timeline1.staggerFrom([".logo svg",".nav_link"], 1, { y: "-100vh", ease: Power1.easeOut, stagger: 0.3 }, 0.3)
     .staggerFrom(["footer .icon a"], 1, { x: "100vw", ease: Power3.easeOut, stagger: 0.2 }, 0.5, 'Start')
     .staggerFrom(".heroHeading", 1, {
       y: "100vh",
