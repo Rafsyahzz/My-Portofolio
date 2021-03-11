@@ -12,7 +12,7 @@ function Loader() {
   
     return (
       <>
-<SEO title="Loading..."/>
+<SEO title="Meryem Barroug"/>
       <div className="wrapper">
    <div className="text_container">
      <h1 className="slider_text">Meryem Barroug</h1>
