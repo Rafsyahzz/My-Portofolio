@@ -35,7 +35,7 @@ const Header = () => {
     
 
      
-    <button onClick={()=>{setIsopen(!isopen)}} className={`nav_btn ${isopen&&'open'}`}>
+    <button onClick={()=>{setIsopen(!isopen)}} aria-label="menu"className={`nav_btn ${isopen&&'open'}`}>
   
       
       <span></span>
