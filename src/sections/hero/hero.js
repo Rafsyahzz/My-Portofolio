@@ -22,7 +22,7 @@ function Hero() {
             </p>
             </div>
             <div className="btn_container">
-            <a className="btn" href="#project"> My work</a>
+            <a className="btn" href="#work"> My work</a>
             </div>
        </section>
     )

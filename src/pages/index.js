@@ -12,11 +12,9 @@ import Projects from "../sections/project/project"
 
 const IndexPage = () => {  
  
-
-
-
-return (<Layout>
-    <SEO title="Barroug Meryem" />
+return (
+<Layout>
+    <SEO title="Meryem Barroug" />
  
     <Hero />
     <Projects/>

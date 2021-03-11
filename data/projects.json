@@ -33,7 +33,24 @@
         "PWA"
         
     ]
-},
+    },
+    {
+        "id":"5",
+       "title":"Portfolio",
+       "description":"My personal website to showcase my projects.",
+       "url":"http://meryembarroug.netlify.app/",
+       "github":"https://github.com/MeryemBa/portofolio",
+       "image":"./images/portfolio.png",
+       "technology":[
+           "Gatsby",
+           "Sass",
+           "Gsap",
+           "Scrollreveal",
+           "PWA"
+           
+       ]
+       },
+      
    
     {
         "id":"3",

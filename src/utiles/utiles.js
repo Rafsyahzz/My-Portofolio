@@ -72,8 +72,8 @@ gsap.to(".horisontal", {
       ease: Power3.easeOut,
 
     }, .5, 'Start')
-    .from("#home p", 1, { y: "100vh", opacity: 0, delay: 4, ease: Power3.easeOut }, 1)
-    .from("#home .btn_container", 1, { y: "100vh", delay: 4.2, opacity: 0, ease: Power3.easeOut }, 1)
+    .from("#home p", 1, { y: "100vh", opacity: 0, delay: 3, ease: Power3.easeOut }, 1)
+    .from("#home .btn_container", 1, { y: "100vh", delay: 3.2, opacity: 0, ease: Power3.easeOut }, 1)
 
 
 
@@ -106,7 +106,7 @@ export const handelscrole = () => {
     entries.forEach(entry => {
 
       const sectionName = entry.target.id;
-      console.log(entry)
+     
       if (entry.isIntersecting) {
         links.forEach(link => {
 

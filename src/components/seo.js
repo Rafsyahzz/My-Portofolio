@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
             image
           }
         }
@@ -26,16 +27,18 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaDescription = site.siteMetadata.description
+  const defaultTitle =title || site.siteMetadata.title
   const image=site.siteMetadata.image
+  const  siteUrl=site.siteMetadata.siteUrl
+  const author=site.siteMetadata.author
 
   return (
     <Helmet
       htmlAttributes={{
-        lang,
+        lang: `en`,
       }}
-      title={title}
+      title={defaultTitle }
       titleTemplate={defaultTitle ? ` ${defaultTitle}` : null}
       meta={[
         {
@@ -43,37 +46,30 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `author`,
+          content: author,
+        },
+        { name: `title`,
           property: `og:title`,
-          content: title,
+          content: defaultTitle,
         },
         {
           property: `og:description`,
           content: metaDescription,
         },
-        {
-					name: 'og:image',
+        {name: `image`,
+					property: 'og:image',
 					content: image,
+				},
+        {
+					property: 'og:url',
+					content:  siteUrl,
 				},
         {
           property: `og:type`,
           content: `website`,
         },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
+      
       ].concat(meta)}
     />
   )

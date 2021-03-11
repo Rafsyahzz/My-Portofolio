@@ -6,7 +6,7 @@ function Footer() {
         <footer >
             <SocialIcons className="horisontal"/>
             <p className="scrol_anime">
-            Built with ❤️ by Meryem Barroug.
+            Built with <span role="img" aria-label="heart emoji"> ❤️</span> by Meryem Barroug.
             </p>
            
 

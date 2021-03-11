@@ -1,21 +1,24 @@
 import React,{useEffect} from 'react'
 import "./loader.scss";
 import {slider} from "../../utiles/utiles"
+import SEO from '../seo';
 
 function Loader() {
   useEffect(() => {
     
     slider()
   
-  }, [slider])
+  }, [])
   
     return (
+      <>
+<SEO title="Loading..."/>
       <div className="wrapper">
    <div className="text_container">
      <h1 className="slider_text">Meryem Barroug</h1>
      <span className="slider"></span>
 </div>
-    </div>
+    </div></>
     )
 }
 

@@ -79,7 +79,7 @@ section {
   line-height: 1em;
   letter-spacing: 0.2px;
   text-transform: uppercase;
-  -webkit-text-stroke: 1.6px $textDecorationColor;
+  -webkit-text-stroke: 1.2px $textDecorationColor;
   opacity: 0.07;
   font-weight: 700;
 }
@@ -183,7 +183,7 @@ section {
     transition: all 0.5s ease-in-out;
   }
   &.strokeIcon {
-    svg {
+    & a svg {
       stroke: $subTextXolor;
       fill: none;
       &:hover {
@@ -191,4 +191,11 @@ section {
       }
     }
   }
+}
+.text_container_404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
