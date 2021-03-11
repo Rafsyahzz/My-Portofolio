@@ -13,7 +13,7 @@ function Contact() {
              or you have a question or maybe just want to say hi, I'll try my best to get back to you!
             </p>
             <div className="btn_container scrol_anime">
-            <a className="btn" href="mailto:barrougmeryem@gmail.com">Contact Me</a>
+            <a aria-label="link to email"className="btn" href="mailto:barrougmeryem@gmail.com">Contact Me</a>
             </div>
             </div>
           

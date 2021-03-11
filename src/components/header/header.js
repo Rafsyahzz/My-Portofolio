@@ -22,14 +22,14 @@ const Header = () => {
    </div>
     <nav  className={`${isopen&&'open'}`} >
      
-          <a  onClick={()=>isopen?setIsopen(!isopen):null}  className="nav_link" data-name="home" href="#home">Home</a>
+          <a  onClick={()=>isopen?setIsopen(!isopen):null}  aria-label="nav link to"    className="nav_link" data-name="home" href="#home">Home</a>
        
           
       
-          <a onClick={()=>isopen?setIsopen(!isopen):null}  className="nav_link" data-name="work" href="#work">Work</a>
-          <a  onClick={()=>isopen?setIsopen(!isopen):null} className="nav_link" data-name="about" href="#about">About</a>
+          <a onClick={()=>isopen?setIsopen(!isopen):null}  aria-label="nav link to"    className="nav_link" data-name="work" href="#work">Work</a>
+          <a  onClick={()=>isopen?setIsopen(!isopen):null}  aria-label="nav link to "   className="nav_link" data-name="about" href="#about">About</a>
       
-          <a  onClick={()=>isopen?setIsopen(!isopen):null} className="nav_link" data-name="contact" href="#contact">Contact</a>
+          <a  onClick={()=>isopen?setIsopen(!isopen):null}  aria-label="nav link to"   className="nav_link" data-name="contact" href="#contact">Contact</a>
          
     </nav>
     

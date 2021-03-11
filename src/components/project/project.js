@@ -51,12 +51,12 @@ function Project({title,description, url,github, imageData,technology,shiftDiste
                 </div>
                 <div className="icon_container scrol_anime">
                     <div className="icon">
-                        <a href={ url}>
+                        <a  aria-label={`link to the ${title} website`} href={ url}>
                     <LinkToWebsite/>
                     </a>
                     </div>
                     <div className="icon">
-                <a href={github}>
+                <a aria-label={`link to the ${title} github repo`}  href={github}>
             <Github/>
             </a>
             
