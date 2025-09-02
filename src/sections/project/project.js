@@ -18,7 +18,7 @@ function Projects() {
               url
               image {
                     childImageSharp {
-                      fluid(  quality: 100) {
+                      fluid(quality: 100) {
                             ...GatsbyImageSharpFluid
                         }
                     }
@@ -34,7 +34,7 @@ function Projects() {
     
     return (
         <section id="work">
-<h2 className="title">My work</h2>
+<h2 className="title">My Project</h2>
 
 <div className="projects_container">
 

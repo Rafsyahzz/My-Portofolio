@@ -10,7 +10,7 @@ function Hero() {
            </div>
            <div  >
            <h1 className="heroHeading">
-            Meryem Barroug.
+            Rafii Syahbani.
            </h1>
            </div>
            <div  >
@@ -22,7 +22,7 @@ function Hero() {
             </p>
             </div>
             <div className="btn_container">
-            <a aria-label="link to my work section"className="btn" href="#work"> My work</a>
+            <a aria-label="link to my work section"className="btn" href="#work"> My Project</a>
             </div>
        </section>
     )

@@ -12,10 +12,10 @@ function Loader() {
   
     return (
       <>
-<SEO title="Meryem Barroug"/>
+<SEO title="RIFSZZ"/>
       <div className="wrapper">
    <div className="text_container">
-     <h1 className="slider_text">Meryem Barroug</h1>
+     <h1 className="slider_text">Rafii Syahbani</h1>
      <span className="slider"></span>
 </div>
     </div></>

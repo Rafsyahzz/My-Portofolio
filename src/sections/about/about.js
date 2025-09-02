@@ -16,16 +16,14 @@ function About() {
             </p>
             
                 <p className="scrol_anime">
-                After graduating from Mohammed 5 university I have been self-educating about 
-            newer web technologies such as javascript and react etc.
-            I present you a few technologies that I've been working with recently:<br/></p>
+                With a growing interest in AI and web technologies, I focus on building interfaces that not only look good but also feel intuitive and dynamic. I'm always eager to learn new tools and technologies that help push my creative and technical limits.<br/></p>
            <div className="skill_Container">
-                <span className="skill"> HTML</span>
+                <span className="skill">HTML</span>
                 <span className="skill">CSS(Sass)</span>
                 <span className="skill">Javascript</span>
                 <span className="skill">React.js</span>
                 <span className="skill">Node.js</span>
-                <span className="skill">Figma</span>
+                <span className="skill">Gatsby</span>
                 </div>
          
 

@@ -24,18 +24,6 @@ export const  slider=()=> {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 // Object to configurate the ScrollReveal  function
 const srConfig = {
   origin: 'bottom',

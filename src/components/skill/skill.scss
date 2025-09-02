@@ -1,0 +1,62 @@
+.skills {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  padding: 2rem;
+  background-color: #1a1a1a; // disamakan dengan section About
+  border-radius: 8px;
+
+  &.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skills__title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff; // sebelumnya #222
+  text-align: center;
+}
+
+.skills__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills__item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #2a2a2a; // sebelumnya white
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); // sedikit lebih gelap
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5); // disesuaikan
+  }
+}
+
+.skills__name {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #ffffff; // sebelumnya #333
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.skills__level {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #cccccc; // sebelumnya #888
+}
+
+.skills__desc {
+  font-size: 1rem;
+  color: #dddddd; // sebelumnya #555
+  line-height: 1.4;
+}
